@@ -21,15 +21,12 @@ namespace PryEstacionamiento
             
             if (tipoVehiculo == "Motocicleta")
             {
-                // Integrante B: Instanciar clase Motocicleta y asignar propiedades
             }
-            else if (tipoVehiculo == "Automóvil")
+            else if (tipoVehiculo == "Automovil")
             {
-                // Integrante C: Instanciar clase Automovil y asignar propiedades
             }
             else if (tipoVehiculo == "Camioneta")
             {
-                // Integrante D: Instanciar clase Camioneta y asignar propiedades
             }
             else
             {

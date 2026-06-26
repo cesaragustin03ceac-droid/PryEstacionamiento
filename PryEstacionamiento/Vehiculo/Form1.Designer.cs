@@ -46,14 +46,14 @@
             groupBox1.Controls.Add(BtBoton);
             groupBox1.Location = new Point(24, 20);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(728, 400);
+            groupBox1.Size = new Size(347, 526);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            groupBox1.Text = "Tarifa";
             // 
             // txtHoras
             // 
-            txtHoras.Location = new Point(37, 159);
+            txtHoras.Location = new Point(37, 243);
             txtHoras.Name = "txtHoras";
             txtHoras.Size = new Size(125, 27);
             txtHoras.TabIndex = 4;
@@ -61,7 +61,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(37, 119);
+            label2.Location = new Point(37, 194);
             label2.Name = "label2";
             label2.Size = new Size(48, 20);
             label2.TabIndex = 3;
@@ -70,7 +70,7 @@
             // cbTipo
             // 
             cbTipo.FormattingEnabled = true;
-            cbTipo.Location = new Point(37, 75);
+            cbTipo.Location = new Point(37, 127);
             cbTipo.Name = "cbTipo";
             cbTipo.Size = new Size(151, 28);
             cbTipo.TabIndex = 2;
@@ -79,7 +79,7 @@
             // label
             // 
             label.AutoSize = true;
-            label.Location = new Point(35, 37);
+            label.Location = new Point(37, 70);
             label.Name = "label";
             label.Size = new Size(119, 20);
             label.TabIndex = 1;
@@ -87,7 +87,7 @@
             // 
             // BtBoton
             // 
-            BtBoton.Location = new Point(272, 311);
+            BtBoton.Location = new Point(71, 338);
             BtBoton.Name = "BtBoton";
             BtBoton.Size = new Size(138, 65);
             BtBoton.TabIndex = 0;
@@ -99,9 +99,13 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.LightGray;
+            ClientSize = new Size(405, 558);
             Controls.Add(groupBox1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             groupBox1.ResumeLayout(false);
