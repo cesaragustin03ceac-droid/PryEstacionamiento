@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PryEstacionamiento
 {
-    public abstract class Vehiculo
+    public abstract class vehiculo
     {
         public int HorasEstancia { get; set; }
 

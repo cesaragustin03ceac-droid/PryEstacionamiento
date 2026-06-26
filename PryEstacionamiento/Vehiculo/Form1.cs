@@ -1,3 +1,5 @@
+using PryEstacionamiento.Vehiculo;
+
 namespace PryEstacionamiento
 {
     public partial class Form1 : Form
@@ -16,7 +18,7 @@ namespace PryEstacionamiento
             }
 
             string tipoVehiculo = cbTipo.SelectedItem?.ToString();
-            Vehiculo vehiculo = null;
+            vehiculo vehiculo = null;
 
             
             if (tipoVehiculo == "Motocicleta")
@@ -25,7 +27,11 @@ namespace PryEstacionamiento
             }
             else if (tipoVehiculo == "Automóvil")
             {
-                // Integrante C: Instanciar clase Automovil y asignar propiedades
+                vehiculo = new Automovil
+                {
+                    HorasEstancia = horas,
+                    Placa = ""
+                };
             }
             else if (tipoVehiculo == "Camioneta")
             {
